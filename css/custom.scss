@@ -185,9 +185,20 @@ footer {
 * Blog 
 */
 .blog {
-	margin-top:100px;
+	margin-top:80px;
+	.row {
+		margin:20px 0;
+	}
+
+	img {
+		max-width:100%;
+	}
 }
 
+code {
+	font-family: lato;
+	font-weight:400;
+}
 
 /*
 * Small media queries
