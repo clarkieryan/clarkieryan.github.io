@@ -6303,6 +6303,8 @@ header {
   text-align: center; }
   #front-desc .fa {
     font-size: 20px; }
+  #front-desc .desktop {
+    margin-top: 70px; }
 
 /*
 * Footer
