@@ -6307,7 +6307,8 @@ header {
   #front-desc .fa {
     font-size: 20px; }
   #front-desc .desktop {
-    margin-top: 70px; }
+    margin-top: 90px;
+    width: 100%; }
 
 /*
 * Footer
