@@ -6215,6 +6215,12 @@ td.visible-print {
   td.hidden-print {
     display: none !important; } }
 /*
+* Mixin to add in transform support
+*/
+/*
+* Mixin in to support transitions
+*/
+/*
 
 Contents
 ================================
@@ -6309,6 +6315,18 @@ header {
   #front-desc .desktop {
     margin-top: 90px;
     width: 100%; }
+  #front-desc img {
+    -webkit-transition: transform 1s ease-in;
+    -moz-transition: transform 1s ease-in;
+    -o-transition: transform 1s ease-in;
+    transition: transform 1s ease-in; }
+    #front-desc img:hover {
+      -webkit-transform: rotate(5deg);
+      -moz-transform: rotate(5deg);
+      -ms-transform: rotate(5deg);
+      -o-transform: rotate(5deg);
+      transform: rotate(5deg);
+      cursor: pointer; }
 
 /*
 * Footer

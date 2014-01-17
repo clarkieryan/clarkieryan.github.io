@@ -111,6 +111,14 @@ header {
 		margin-top: 90px;
 		width: 100%;
 	}
+
+	img {
+		@include transition(transform 1s ease-in);
+		&:hover {
+			@include transform(rotate(5deg));
+			cursor: pointer;
+		}
+	}
 }
 
 /*
