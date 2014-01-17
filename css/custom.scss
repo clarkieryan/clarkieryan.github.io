@@ -1,0 +1,139 @@
+/*
+* Includes
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,500,600,400);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+
+
+/*
+* General stylings
+*/
+
+body {
+	font-family:lato;
+	font-weight:300;
+	color: rgb(85, 85, 85);
+
+	margin-bottom:40px;
+}
+
+h1, h2, h3, h4 {
+	font-family:raleway;
+	font-weight:400;
+}
+
+
+/*
+* Navigation
+*/
+
+.navbar {
+	margin-bottom:0 ;
+}
+
+.nav-inner {
+	max-width:1140px;
+	margin:0 auto;
+}
+
+.navbar-nav  {
+	font-size:16px;
+}
+
+.navbar-brand {
+	font-size:28px;
+	font-weight:200;
+}
+
+header {
+	margin-top:51px;
+}
+
+/*
+* Index page
+*/
+
+.front-image {
+	background: url(../img/front-image.jpg) no-repeat center top;
+	margin-top: -10px;
+	padding-top: 20px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	color:#FFF;
+
+	h1, h2 {
+		margin: 0;
+		padding: 0;
+		font-weight: 100;
+	}
+
+	h1 {
+		font-size: 62px;
+	}
+	
+	h2{
+		font-size: 20px;
+		margin-top: 5px; 
+	}
+
+	.front-image-inner {
+		margin-top: 150px;
+	}
+
+}
+
+#front-desc {
+	text-align: center;
+	.fa {
+		font-size: 20px;
+	}
+}
+
+/*
+* Footer
+*/
+
+footer {
+	text-align: center;
+	margin-top:40px;
+	font-size:26px;
+	color:#777777;
+	a {
+		color:#777777;
+		&:hover {
+			color:#333333
+		}
+	}
+
+	i {
+		padding:0 5px;
+	}
+}
+
+/*
+* Twitter stuff
+*/
+
+.twitter {
+	border-top: 1px #CCC solid;
+	border-bottom: 1px #CCC solid;
+	text-align:center;
+
+	 h3 {
+		margin:20px 0 !important;
+		font-weight: 200;
+	 }
+}

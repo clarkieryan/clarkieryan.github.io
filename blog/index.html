@@ -1,0 +1,14 @@
+---
+layout: post
+title: Blog
+---
+<!-- Content
+    ================================================== -->
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post }}</a>
+    </li>
+  {% endfor %}
+</ul>
