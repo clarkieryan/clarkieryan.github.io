@@ -173,6 +173,12 @@ footer {
 
 .project {
 	margin-top:30px;
+	.anchor {
+		display: block; 
+		position: relative; 
+		top: -70px; 
+		visibility: hidden;
+	}
 }
 
 /*
