@@ -6372,6 +6372,12 @@ footer {
     visibility: hidden; }
 
 /*
+* Blog 
+*/
+.blog {
+  margin-top: 100px; }
+
+/*
 * Small media queries
 */
 @media (min-width: 768px) and (max-width: 991px) {
