@@ -148,3 +148,20 @@ footer {
 		font-weight: 200;
 	 }
 }
+/*
+* Extra Small devices (mobiles, 320px and up) 
+*/
+@media (min-width: 320px) and (max-width: 767px) {}
+
+/*
+* Small media queries
+*/
+@media (min-width: 768px) and (max-width: 991px) { 
+
+	#front-desc {
+		img {
+			width:100%;
+		}
+	}
+
+}

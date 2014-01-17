@@ -6335,3 +6335,13 @@ footer {
   .twitter h3 {
     margin: 20px 0 !important;
     font-weight: 200; }
+
+/*
+* Extra Small devices (mobiles, 320px and up) 
+*/
+/*
+* Small media queries
+*/
+@media (min-width: 768px) and (max-width: 991px) {
+  #front-desc img {
+    width: 100%; } }
