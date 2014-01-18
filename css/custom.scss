@@ -200,9 +200,27 @@ code {
 	font-weight:400;
 }
 
+
+/*
+* Mobile media queries
+*/
+@media (max-width: 767px) {
+	.project {
+		text-align: center;
+		img {
+			max-width: 100%;
+		}
+	}
+
+	.desktop {
+		margin: 30px 0 !important;
+	}
+}
+
 /*
 * Small media queries
 */
+
 @media (min-width: 768px) and (max-width: 991px) { 
 
 	#front-desc {
