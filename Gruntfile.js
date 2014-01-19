@@ -26,7 +26,7 @@ module.exports = function(grunt) {
 			},
 
 			watchJekyll: {
-				cmd: 'jekyll serve -w'
+				cmd: 'jekyll serve -w --draft'
 			},
 
 			watchSASS: {
