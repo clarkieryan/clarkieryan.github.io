@@ -9,7 +9,6 @@ image: /img/blog/welcome.JPG
   
 ![New Site](/img/blog/welcome.JPG)
 
-
 # 3 Months to a JSNinja Part 1
 
 This is the first in my chronicles of how I am learning JS, here I have listed the various tools, resources and projects I plan on creating/utilising. 
@@ -36,3 +35,4 @@ These are some of the project ideas I have to help me on my way to learning JS
     - Renders markdown
     - Router for blog posts
     - Static pages static
+- 
