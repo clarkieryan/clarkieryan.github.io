@@ -3,6 +3,7 @@ layout: post
 title: New website design
 excerpt: So I wasn't a big fan of my old design, so I have went for a much cleaner version of the old site. The design of this new site is similar to the old version, but I feel it's a lot cleaner and simpler design.
 image: /img/blog/newsite.png
+categories: main
 ---
 <!-- Content
     ================================================== -->

@@ -3,6 +3,7 @@ layout: post
 title: Ruby on Rails and Exceptions
 excerpt: Ruby has some great functionality for returning and adding in your own exceptions. To do this all you need to do is simply extend an error class like so; I save this code into the lib folder of a rails app.
 image: /img/blog/ruby.jpg
+categories: main
 ---
 <!-- Content
     ================================================== -->

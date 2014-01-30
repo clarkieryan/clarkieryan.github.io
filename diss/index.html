@@ -1,0 +1,22 @@
+---
+layout: default
+title: Dissertation Blog
+---
+<!-- Content
+    ================================================== -->
+	<div class="container blog">
+			{% for post in site.posts %}
+				{% if post.categories contains 'diss' %}
+					<div class="row">
+						<div class="col-sm-6 centered">
+							<img src="{{post.image}}">
+						</div>
+						<div class="col-sm-6">
+							<a href="{{post.url}}"><h3>{{post.title}}</h3></a>
+							<p>{{post.excerpt}}</p>
+						</div>		
+					</div>
+				{% endif %}
+			{% endfor %}
+		</div>
+	</div>
