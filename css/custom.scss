@@ -4,6 +4,7 @@
 
 @import url(http://fonts.googleapis.com/css?family=Raleway:300,500,600,400);
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
 
 
 @media (min-width: 1200px) {
@@ -58,6 +59,22 @@ header {
 	margin-top:51px;
 }
 
+button {
+	outline: none;
+	color:#428bca;
+	background: none;
+	border: 1px #428bca solid;
+	margin: 20px 0;
+	padding: 5px 15px;
+	font-family: 'Lato';
+	font-size:16px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-weight: 300;
+	float: right;
+}
+
 /*
 * Index page
 */
@@ -97,8 +114,16 @@ header {
 		margin-top: 5px; 
 	}
 
+
+
 	.front-image-inner {
 		margin-top: 150px;
+
+		button {
+			color:#FFF;
+			border-color: #FFF;
+			float:none;
+		}
 	}
 
 }
@@ -161,9 +186,15 @@ footer {
 /*
 * Extra Small devices (mobiles, 320px and up) 
 */
-@media (min-width: 320px) and (max-width: 767px) {}
+@media (min-width: 320px) and (max-width: 767px) {
 
-/*
+	button {
+		float:none;
+	}
+
+}
+
+/*r
 * Portfolio 
 */
 
@@ -185,7 +216,7 @@ footer {
 * Blog 
 */
 .blog {
-	margin-top:80px;
+	
 	.row {
 		margin:20px 0;
 	}
@@ -193,6 +224,10 @@ footer {
 	img {
 		max-width:100%;
 	}
+}
+
+.blog-margin {
+	margin-top:80px;
 }
 
 code {
@@ -208,6 +243,30 @@ code {
 }
 
 /*
+* Diss Blog
+*/
+
+.diss-blog-header {
+	
+	h1 {
+		font-family: 'Pacifico';
+		font-size:82px;
+		position:relative;
+		left:-70px;
+	}
+
+	h2 {
+		font-family: 'HelveticaNeue-Light';
+		font-size: 14px;
+		position: relative;
+		top: -25px;
+		left: 85px;
+	}
+
+}
+
+
+/*
 * Mobile media queries
 */
 @media (max-width: 767px) {
@@ -221,6 +280,20 @@ code {
 	.desktop {
 		margin: 30px 0 !important;
 	}
+
+	.diss-blog-header {
+	
+		h1 {
+			font-family: 'Pacifico';
+			font-size:82px;
+			left:0px;
+		}
+
+		h2 {
+			display: none;
+		}
+
+}
 }
 
 /*

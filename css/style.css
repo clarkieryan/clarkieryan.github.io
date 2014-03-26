@@ -1,6 +1,7 @@
 @import url(pygments.css);
 @import url(http://fonts.googleapis.com/css?family=Raleway:300,500,600,400);
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
 article,
 aside,
 details,
@@ -6279,6 +6280,21 @@ h1, h2, h3, h4 {
 header {
   margin-top: 51px; }
 
+button {
+  outline: none;
+  color: #428bca;
+  background: none;
+  border: 1px #428bca solid;
+  margin: 20px 0;
+  padding: 5px 15px;
+  font-family: 'Lato';
+  font-size: 16px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-weight: 300;
+  float: right; }
+
 /*
 * Index page
 */
@@ -6311,6 +6327,10 @@ header {
     margin-top: 5px; }
   .front-image .front-image-inner {
     margin-top: 150px; }
+    .front-image .front-image-inner button {
+      color: #FFF;
+      border-color: #FFF;
+      float: none; }
 
 #front-desc {
   text-align: center; }
@@ -6361,7 +6381,10 @@ footer {
 /*
 * Extra Small devices (mobiles, 320px and up) 
 */
-/*
+@media (min-width: 320px) and (max-width: 767px) {
+  button {
+    float: none; } }
+/*r
 * Portfolio 
 */
 .project {
@@ -6375,12 +6398,13 @@ footer {
 /*
 * Blog 
 */
-.blog {
+.blog .row {
+  margin: 20px 0; }
+.blog img {
+  max-width: 100%; }
+
+.blog-margin {
   margin-top: 80px; }
-  .blog .row {
-    margin: 20px 0; }
-  .blog img {
-    max-width: 100%; }
 
 code {
   font-family: lato;
@@ -6389,6 +6413,21 @@ code {
 .post img {
   margin-top: 20px;
   width: 100%; }
+
+/*
+* Diss Blog
+*/
+.diss-blog-header h1 {
+  font-family: 'Pacifico';
+  font-size: 82px;
+  position: relative;
+  left: -70px; }
+.diss-blog-header h2 {
+  font-family: 'HelveticaNeue-Light';
+  font-size: 14px;
+  position: relative;
+  top: -25px;
+  left: 85px; }
 
 /*
 * Mobile media queries
@@ -6400,7 +6439,14 @@ code {
       max-width: 100%; }
 
   .desktop {
-    margin: 30px 0 !important; } }
+    margin: 30px 0 !important; }
+
+  .diss-blog-header h1 {
+    font-family: 'Pacifico';
+    font-size: 82px;
+    left: 0px; }
+  .diss-blog-header h2 {
+    display: none; } }
 /*
 * Small media queries
 */
