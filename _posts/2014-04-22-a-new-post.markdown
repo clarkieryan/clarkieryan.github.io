@@ -2,6 +2,6 @@
 published: true
 title: A new post
 layout: post
-categories: [main]
+categories: main
 ---
 Here is some content
