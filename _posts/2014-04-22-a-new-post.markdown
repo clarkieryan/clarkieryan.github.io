@@ -1,0 +1,6 @@
+---
+published: true
+title: A new post
+layout: post
+---
+Here is some content
