@@ -140,9 +140,9 @@ button {
 	}
 
 	img {
-		@include transition(transform 1s ease-in);
+		@include transition(transform 0.1s ease-in);
 		&:hover {
-			@include transform(rotate(5deg));
+			@include transform(scale(1.02));
 			cursor: pointer;
 		}
 	}
